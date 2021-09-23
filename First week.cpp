@@ -7,7 +7,7 @@ void BS( int arr[],int i, int j, int key)
         int mid = (i+j)/2;
         if(arr[mid]==key)
         return mid;
-        else
+       
         else if(arr[mid]>key)
         BS(arr,i,mid-1,key)
         else
